@@ -8,9 +8,13 @@ def spin_chamber():
 
 #  DON'T CHANGE THE CODE ABOVE
 def fire_gun():
-	# YOUR CODE HERE
+    if spin_chamber()==3:
+        print("You are dead!")
+    else:
+        print("Keep playing!")
+        
 
 
 
 
-print(fire_gun())
+fire_gun()

@@ -1,6 +1,6 @@
 def start_counting():
     counter = 100
-    while counter > -1:
+    while counter >= 0:
         print(counter)
         counter-=1
     return counter

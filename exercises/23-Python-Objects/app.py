@@ -20,12 +20,13 @@ class Family:
 
 
 # STEP 1 Change the fourth lucky number of John Doe to 33
-# Your code here
+Family.members[0].lucky_numbers[3] = 33
+    
+print(Family.members[0].lucky_numbers)
 
 
 # STEP 2 Create Little Jimmy's object and then add it to the family object
 # Your code here
-
 
 
 def add_allFamilyLuckyNumbers(an_array):
